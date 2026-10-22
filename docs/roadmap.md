@@ -3,8 +3,6 @@
 **Goal:** increase OTT revenue by reducing churn
 **Deliverable:** churn probability model + separate rule layer on top
 
-Status: ✅ done · 🔄 in progress · ⬜ not started
-
 ---
 
 ## 1. Machine Learning Life Cycle
@@ -29,7 +27,7 @@ For every stage: check entry → do the work → check exit (including 4C) → u
 
 ---
 
-## 3. Problem Framing ✅
+## 3. Problem Framing 
 
 - Target
 - Problem
@@ -86,18 +84,18 @@ If something is off (the problem drifted, the economics changed, or a guardrail 
 
 ## 5. Stages
 
-- ✅ 0. Problem framing
-- ⬜ 1. Success metric and economics
-- ⬜ 2. Data understanding
-- ⬜ 3. EDA and baseline
-- ⬜ 4. Feature engineering
-- ⬜ 5. Modeling
-- ⬜ 6. Evaluation and threshold
-- ⬜ 7. Rule layer (business logic)
-- ⬜ 8. Online experiments (shadow, A/B)
-- ⬜ 9. Deployment
-- ⬜ 10. Monitoring and maintenance
-- ⬜ 11. Iterate or retire
+-  0. Problem framing
+-  1. Success metric and economics
+-  2. Data understanding
+-  3. EDA and baseline
+-  4. Feature engineering
+-  5. Modeling
+-  6. Evaluation and threshold
+-  7. Rule layer (business logic)
+-  8. Online experiments (shadow, A/B)
+-  9. Deployment
+-  10. Monitoring and maintenance
+-  11. Iterate or retire
 
 
 
