@@ -22,15 +22,15 @@ Industry knowledge needed before Stage 1 of the OTT churn project.
 
 - Expected lifetime ≈ 1 ÷ monthly churn (for eg. 5% monthly churn means about 20 months).
 - ARPU is blended across tiers, so it hides segment differences.
-- The 1/churn shortcut assumes constant churn, but real churn is highest early in a subscriber's life.its just for first guess and a baseline. 
+- The 1/churn shortcut assumes constant churn, but real churn is highest early in a subscriber's life. It's just for a first guess and a baseline.
 
 ## 3. Revenue formula
 
 **Revenue ≈ subscribers × ARPU × months they stay**
 
-Example (made-up numbers): ARPU ₹150/month.
-- At 5% monthly churn, lifetime is 20 months, so revenue per subscriber is ₹3,000.
-- At 4% monthly churn, lifetime is 25 months, so revenue per subscriber is ₹3,750 (**+25%**).
+Example (made-up numbers): ARPU $16/month.
+- At 5% monthly churn, lifetime is 20 months, so revenue per subscriber is $320.
+- At 4% monthly churn, lifetime is 25 months, so revenue per subscriber is $400 (**+25%**).
 
 One percentage point of churn is worth a 25% gain in lifetime revenue. This is the business case for the project.
 
@@ -46,19 +46,17 @@ Because content is already paid for, keeping a subscriber is cheap and winning a
 ## 5. Voluntary vs involuntary churn
 
 - **Voluntary:** the user decides to cancel or not renew. Fixes: content, offers, nudges, plan changes.
-- **Involuntary:** a payment fails (expired card, low balance, bank decline, mandate failure) and the user never meant to leave. Fixes: payment retries, reminders, easy payment-method updates.
+- **Involuntary:** a payment fails (expired card, low balance, bank decline, autopay failure) and the user never meant to leave. Fixes: payment retries, reminders, easy payment-method updates.
 
 The two need different treatments. A discount for a failed card is wasted money, and a payment reminder does nothing for a bored user.
 
 ## 6. Subscription mechanics
 
 - **Billing cycle:** the period the user has paid for.
-- **Renewal:** automatic (saved mandate) or manual (user must recharge). Manual renewal gives a naturally higher lapse rate.
+- **Renewal:** automatic (saved card or payment method) or manual (user must pay each time). Manual renewal gives a naturally higher lapse rate.
 - **Failed payment and grace period:** platforms retry for some days and keep access active (dunning).
 - **Cancel flow:** cancelling usually stops the *next* renewal, and the user keeps access until the period ends.
 - **Pause, downgrade, win-back:** other exits and re-entries that the churn label must handle.
-
-
 
 ## 7. Why OTT users churn (hypotheses to test in Stage 2-4)
 
@@ -76,13 +74,16 @@ Treat these as hypotheses, not facts. Check which ones your data can actually se
 
 ## 8. Privacy rules (Stage 2)
 
-
 - **Consent and purpose:** use data only for what the user agreed to.
 - **Data minimization:** don't collect or use more than needed.
 - **Withdrawal and erasure:** users can withdraw consent or request deletion.
 - **Marketing contact rules:** opt-ins and opt-outs apply to SMS, WhatsApp, and email offers.
 
-This decides which features the model may use and whom the rule layer may contact. The rules are still being phased in, so confirm the current position with compliance.
+US context for Jetflix:
+- There is no single federal privacy law. The main rules are CAN-SPAM (email must have an unsubscribe), TCPA (marketing texts need prior consent), and state laws such as California's CCPA/CPRA.
+- WhatsApp also requires user opt-in under its own business rules.
+
+This decides which features the model may use and whom the rule layer may contact. Confirm the details with compliance. The full list for this project is in `Governance_and_legal_things.md`.
 
 ## 9. Offers and discount practices (Stage 7)
 
