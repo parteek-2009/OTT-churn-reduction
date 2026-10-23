@@ -84,3 +84,14 @@ See decision 003 for the reasoning and sources.
 Jetflix is profitable, at about $1.46 million a year. Acquisition is the largest cost after
 content, and replacing churned users accounts for about $350,000 of it, which is why
 reducing churn matters.
+
+## Cancelling
+- Jetflix renews automatically. To leave, a user cancels membership by removing their card.
+- A user can do this at any point in the billing month, even a day before renewal.
+- Access continues until the end of the paid month. If no payment is received at renewal,
+  access ends.
+
+## Retention today
+- No targeted retention system. Jetflix sends only a generic renewal reminder.
+- No offer is shown when a user cancels.
+- A win-back email goes out 2-4 weeks after access ends.
