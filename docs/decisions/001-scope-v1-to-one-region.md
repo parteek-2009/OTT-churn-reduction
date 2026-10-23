@@ -5,7 +5,7 @@
 **Stage:** 0-1 (problem framing, success metric and economics)
 
 ## Decision
-Build v1 of the churn model using data from one region only: [REGION : UNITED STATES].
+Build v1 of the churn model using data from one region only: the United States.
 
 ## Context
 The platform is worldwide. Plans, pricing, currency, affordability, holidays,

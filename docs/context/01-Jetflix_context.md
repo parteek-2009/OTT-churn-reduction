@@ -18,7 +18,10 @@ Every value below is an assumption set for this project, not real data.
 - If a failed payment is not recovered by the end of the grace period, access ends.
 
 ## Cancelling
-- Cancelling stops the next renewal. Access continues until the end of the paid month.
+- Jetflix renews automatically. To leave, a user cancels membership by removing their card.
+- A user can do this at any point in the billing month, even a day before renewal.
+- Access continues until the end of the paid month. If no payment is received at renewal,
+  access ends.
 
 ## Size and growth
 - **Subscribers:** 100,000
@@ -43,6 +46,11 @@ These follow from the values above. They are not separate assumptions.
 ## Scope of the model
 - The model predicts **voluntary churn only**. Involuntary churn from payment failure is out of scope.
 
+## Retention today
+- No targeted retention system. Jetflix sends only a generic renewal reminder.
+- No offer is shown when a user cancels.
+- A win-back email goes out 2-4 weeks after access ends.
+
 ## Costs and value
 All values are assumptions, informed by industry benchmarks and Netflix's 2025 SEC filings.
 See decision 003 for the reasoning and sources.
@@ -56,12 +64,13 @@ See decision 003 for the reasoning and sources.
 ### Margin
 - **Margin per user:** about $12.19 per month (about 76%), counting variable costs only.
   Content is excluded because it is mostly fixed.
-- **Cautious check:** gross margin of about 49%, which charges each user a share of content cost.
+- **Cautious check:** Jetflix's gross margin of about 46% ($7.39 per user per month),
+  which also charges each user a share of content cost. For reference, Netflix's is about 49%.
 
 ### Acquisition and value
 - **CAC:** about $70 per new subscriber (industry median is about $68, range $68-$110)
-- **LTV:** about $244 (margin per user x 20-month expected lifetime)
-- **LTV:CAC:** about 3.5 (about 2.2 at the cautious margin)
+- **LTV:** about $244 (margin per user x 20-month expected lifetime), or about $148 at the cautious margin
+- **LTV:CAC:** about 3.5 (about 2.1 at the cautious margin)
 - **Acquisition spend:** about $490,000 per month (7,000 new users x $70)
 - **Cost to replace churned users:** about $350,000 per month (5,000 x $70)
 
@@ -84,14 +93,3 @@ See decision 003 for the reasoning and sources.
 Jetflix is profitable, at about $1.46 million a year. Acquisition is the largest cost after
 content, and replacing churned users accounts for about $350,000 of it, which is why
 reducing churn matters.
-
-## Cancelling
-- Jetflix renews automatically. To leave, a user cancels membership by removing their card.
-- A user can do this at any point in the billing month, even a day before renewal.
-- Access continues until the end of the paid month. If no payment is received at renewal,
-  access ends.
-
-## Retention today
-- No targeted retention system. Jetflix sends only a generic renewal reminder.
-- No offer is shown when a user cancels.
-- A win-back email goes out 2-4 weeks after access ends.

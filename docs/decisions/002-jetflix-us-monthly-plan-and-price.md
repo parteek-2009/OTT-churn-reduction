@@ -3,7 +3,7 @@
 **Date:** 2026-10-22
 **Status:** Accepted
 **Stage:** 0-1 (problem framing, success metric and economics)
-**Related:** 001-scope-v1-to-one-region
+**Related:** [001 scope to one region](001-scope-v1-to-one-region.md)
 
 ## Decision
 Jetflix (a fictional, Netflix-like platform) sells one ad-free Standard plan in the US:
@@ -27,11 +27,11 @@ follow from it. The platform is scoped to the US region (see decision 001).
   This is older data, so treat it as a ballpark.
 - **No market data exists for 3 and 6-month plans.** Any share given to them
   would be a guess.
-- **Long-plan groups would be too small to model.** With 8,000 subscribers, a
-  realistic mix leaves a few hundred users on long plans, with very few renewal
-  decisions per month.
+- **Long-plan groups would be too small to model.** With 100,000 subscribers and a
+  realistic mix (mostly monthly), long plans would produce only about 3% of renewal
+  decisions each month, because those users decide only every 3 to 12 months.
 - **It makes the churn problem cleaner.** Every user decides every month, so one
-  churn definition and one prediction window apply to everyone, and all 8,000
+  churn definition and one prediction window apply to everyone, and all 100,000
   users contribute a renewal decision each month.
 
 ## Why $15.99
@@ -46,7 +46,6 @@ follow from it. The platform is scoped to the US region (see decision 001).
 - Offers in the rule layer cannot include a switch to a longer plan.
 - Plan and price are kept in config, so adding plan lengths later does not
   require rewriting the pipeline.
-
 
 ## Sources
 - Netflix Help Center, Plans and Pricing (US): https://help.netflix.com/pt-pt/node/24926/us

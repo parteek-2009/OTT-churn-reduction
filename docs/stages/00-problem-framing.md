@@ -6,7 +6,7 @@ Increase OTT revenue by reducing subscriber churn.
 
 ## Problem
 
-We can't tell in advance which subscribers will leave, so we can't act on them before they do. We also can't contact everyone: capacity is limited, so we need to know who to prioritize.
+We can't tell in advance which subscribers will leave, so we can't act on them before they do. We also can't give an offer to everyone: offers cost money, so we need to know who to prioritize.
 
 ## What is needed
 
@@ -17,4 +17,3 @@ We can't tell in advance which subscribers will leave, so we can't act on them b
 **Scope:**
 - ML part: produce the churn probability only.
 - Business logic (outside the model): card-removal trigger, user groups, offers, follow-ups.
-.

@@ -27,7 +27,7 @@ For every stage: check entry → do the work → check exit (including 4C) → u
 
 ---
 
-## 3. Problem Framing 
+## 3. Problem Framing
 
 - Target
 - Problem
@@ -51,7 +51,7 @@ Two parts: **4A** is general industry knowledge to study (just enough, not a dee
 | Voluntary vs involuntary churn | Cancelling by choice vs payment failure | Stage 1-2 |
 | Subscription mechanics | Billing cycle, renewal, grace period, card failure, cancel flow | Stage 2 |
 | Why OTT users churn | Price, lack of content, finished a show, streaming quality, payment issues, competitors, seasons/big events | Stage 2-4 |
-| Privacy rules for user data | Consent, opt-outs, what data is allowed (e.g. DPDP in India) | Stage 2 |
+| Privacy rules for user data | Consent, opt-outs, what data is allowed (e.g. CAN-SPAM, TCPA and state laws in the US) | Stage 2 |
 | Offer and discount practices | What works, what trains users to wait for discounts | Stage 7 |
 
 ### 4B. Project: what to define and check in the model
@@ -63,9 +63,9 @@ Two parts: **4A** is general industry knowledge to study (just enough, not a dee
 | Metrics | Model metrics and business metrics | Define Stage 1, measure Stage 6 and 8 |
 | Guardrails | Side effects that would stop a "win" | Define Stage 1, check Stage 7, 8, 10 |
 | Leakage | Every feature is known at prediction time | Stage 2, 4 |
-| Limited capacity (ranking) | How many users we can act on, evaluate the top of the list | Stage 3 (validation), 6 |
+| Limited capacity (ranking) | How many users we can give offers to (budget and message limits), evaluate the top of the list | Stage 3 (validation), 6 |
 | Predict churn vs who can be saved | v1 targets by risk, uplift later | Stage 5, revisit Stage 11 |
-| Cost to serve | Model is cheap enough for the value it creates | Stage 5, 9 |
+| Cost to run the model | Model is cheap enough for the value it creates | Stage 5, 9 |
 | Cost-based threshold | Cut-off chosen from cost vs profit | Stage 6 |
 | Offer gaming | Rules so users don't cancel just to get a discount | Stage 7 |
 | Follow-up fatigue | Cap on follow-ups | Stage 7, 8 |
@@ -96,7 +96,5 @@ If something is off (the problem drifted, the economics changed, or a guardrail 
 -  9. Deployment
 -  10. Monitoring and maintenance
 -  11. Iterate or retire
-
-
 
 Location: `docs/decisions/` (one file per decision: decision, alternatives, why)

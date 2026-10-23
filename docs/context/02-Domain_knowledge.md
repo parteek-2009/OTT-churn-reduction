@@ -83,7 +83,7 @@ US context for Jetflix:
 - There is no single federal privacy law. The main rules are CAN-SPAM (email must have an unsubscribe), TCPA (marketing texts need prior consent), and state laws such as California's CCPA/CPRA.
 - WhatsApp also requires user opt-in under its own business rules.
 
-This decides which features the model may use and whom the rule layer may contact. Confirm the details with compliance. The full list for this project is in `Governance_and_legal_things.md`.
+This decides which features the model may use and whom the rule layer may contact. Confirm the details with compliance. The full list for this project is in `03-governance-and-legal.md`.
 
 ## 9. Offers and discount practices (Stage 7)
 
@@ -102,6 +102,6 @@ This is why the roadmap separates the churn model (who is at risk) from the rule
 
 1. Churn controls the "months they stay" term, and retention is high-margin because content cost is fixed.
 2. Offers cost money, so you need break-even math.
-3. Voluntary and involuntary churn need different fixes. Decide how to handle them.
+3. Voluntary and involuntary churn need different fixes. For Jetflix, the model covers voluntary churn only.
 4. The churn event lags the real decision, so define churn and the prediction window deliberately.
 5. Privacy and offer gaming limit what the system is allowed to do.
