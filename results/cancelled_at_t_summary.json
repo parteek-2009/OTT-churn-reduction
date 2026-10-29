@@ -1,0 +1,46 @@
+[
+  {
+    "N_days": 5,
+    "Total_Cycles": 368267,
+    "Cycles_Cancelled_at_T": 15622,
+    "Share_Cycles_Cancelled_at_T": 0.04242030917785194,
+    "Total_Voluntary_Churners": 19479,
+    "Voluntary_Churners_Cancelled_at_T": 15222,
+    "Share_Voluntary_Churners_Cancelled_at_T": 0.7814569536423841,
+    "Renewed_Cycles_Cancelled_at_T_Then_Reversed": 398,
+    "Share_Renewed_Cycles_Cancelled_at_T": 0.0011438983942310733
+  },
+  {
+    "N_days": 10,
+    "Total_Cycles": 368267,
+    "Cycles_Cancelled_at_T": 13047,
+    "Share_Cycles_Cancelled_at_T": 0.03542809972112625,
+    "Total_Voluntary_Churners": 19479,
+    "Voluntary_Churners_Cancelled_at_T": 12369,
+    "Share_Voluntary_Churners_Cancelled_at_T": 0.6349915293392885,
+    "Renewed_Cycles_Cancelled_at_T_Then_Reversed": 676,
+    "Share_Renewed_Cycles_Cancelled_at_T": 0.0019429028002517727
+  },
+  {
+    "N_days": 14,
+    "Total_Cycles": 368267,
+    "Cycles_Cancelled_at_T": 10984,
+    "Share_Cycles_Cancelled_at_T": 0.029826185892300967,
+    "Total_Voluntary_Churners": 19479,
+    "Voluntary_Churners_Cancelled_at_T": 10230,
+    "Share_Voluntary_Churners_Cancelled_at_T": 0.525180964115201,
+    "Renewed_Cycles_Cancelled_at_T_Then_Reversed": 752,
+    "Share_Renewed_Cycles_Cancelled_at_T": 0.002161335659451676
+  },
+  {
+    "N_days": 21,
+    "Total_Cycles": 368267,
+    "Cycles_Cancelled_at_T": 7193,
+    "Share_Cycles_Cancelled_at_T": 0.019532024319311805,
+    "Total_Voluntary_Churners": 19479,
+    "Voluntary_Churners_Cancelled_at_T": 6494,
+    "Share_Voluntary_Churners_Cancelled_at_T": 0.333384670670979,
+    "Renewed_Cycles_Cancelled_at_T_Then_Reversed": 698,
+    "Share_Renewed_Cycles_Cancelled_at_T": 0.002006133364757008
+  }
+]

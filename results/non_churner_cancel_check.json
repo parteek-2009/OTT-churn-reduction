@@ -1,0 +1,49 @@
+{
+  "cycle_level": {
+    "total_known_cycles": 368267,
+    "renewed_cycles": 347933,
+    "voluntary_churn_cycles": 19479,
+    "involuntary_churn_cycles": 855,
+    "renewed_cycles_with_cancel_request": 1452,
+    "renewed_cycles_with_cancel_request_pct": 0.41732172573455234,
+    "renewed_cycles_with_cancel_reversed": 1452,
+    "renewed_cycles_with_cancel_reversed_pct": 0.41732172573455234,
+    "renewed_subscribers_count": 48106,
+    "renewed_subscribers_with_cancel_count": 1417,
+    "renewed_subscribers_with_cancel_pct": 2.9455785141146635,
+    "reversal_duration_stats": {
+      "count": 1452,
+      "median_hours": 239.42000000000002,
+      "mean_hours": 273.2870609504132,
+      "min_hours": 2.8516666666666666,
+      "max_hours": 722.1877777777778,
+      "p25_hours": 122.91479166666666,
+      "p75_hours": 408.5502777777778,
+      "median_days": 9.975833333333334,
+      "mean_days": 11.386960872933884
+    }
+  },
+  "signal_strength": {
+    "total_cycles_with_cancel_request": 20928,
+    "cancel_request_leading_to_churn_count (A)": 19476,
+    "cancel_request_leading_to_renewal_count (B)": 1452,
+    "no_cancel_request_churn_count (C)": 3,
+    "no_cancel_request_renewal_count (D)": 346481,
+    "p_churn_given_cancel (Precision/Conversion)": 0.9306192660550459,
+    "p_renew_given_cancel (Reversal Rate)": 0.06938073394495413,
+    "baseline_voluntary_churn_rate": 0.05289368854662514,
+    "p_churn_given_no_cancel": 8.658408469077937e-06,
+    "lift_over_baseline": 17.594145759653657,
+    "relative_risk": 107481.5619266055,
+    "odds_ratio": 1549142.3223140496
+  },
+  "subscription_lifetime_level": {
+    "total_valid_subscriptions": 61218,
+    "subscriptions_with_cancel_event": 26937,
+    "subscriptions_with_cancel_event_pct": 44.00176418700382,
+    "cancelled_subscriptions_that_closed_voluntarily": 25141,
+    "cancelled_subscriptions_that_closed_voluntarily_pct": 93.33259086015518,
+    "cancelled_subscriptions_with_reversal": 1772,
+    "cancelled_subscriptions_with_reversal_pct": 6.57831235846605
+  }
+}

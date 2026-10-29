@@ -1,0 +1,202 @@
+[
+  {
+    "Column": "subscription_id",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "account_id",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "period_seq",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "signup_type",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "opened_ts",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "plan_code",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "plan_name",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "plan_price_usd",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "billing_cycle",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "max_concurrent_streams",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "max_video_quality",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "has_ads",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "is_free_trial_at_signup",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "billing_anchor_day",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "initial_payment_method_id",
+    "Raw_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_Extraction": 0,
+    "Cycle_Null_Rate_Extraction": 0.0,
+    "Cycle_Nulls_at_T": 0,
+    "Cycle_Null_Rate_at_T": 0.0,
+    "Delta_Percentage_Points": 0.0,
+    "Status_at_T": "Known at signup; identical at T and extraction"
+  },
+  {
+    "Column": "cancel_requested_ts",
+    "Raw_Null_Rate_Extraction": 0.5739348779573136,
+    "Cycle_Nulls_Extraction": 276405,
+    "Cycle_Null_Rate_Extraction": 0.7505559824801028,
+    "Cycle_Nulls_at_T": 355220,
+    "Cycle_Null_Rate_at_T": 0.9645719002788737,
+    "Delta_Percentage_Points": 21.401591779877094,
+    "Status_at_T": "Populated only if cancelled before T (3.54%)"
+  },
+  {
+    "Column": "cancel_channel",
+    "Raw_Null_Rate_Extraction": 0.5739348779573136,
+    "Cycle_Nulls_Extraction": 276405,
+    "Cycle_Null_Rate_Extraction": 0.7505559824801028,
+    "Cycle_Nulls_at_T": 355220,
+    "Cycle_Null_Rate_at_T": 0.9645719002788737,
+    "Delta_Percentage_Points": 21.401591779877094,
+    "Status_at_T": "Populated only if cancelled before T (3.54%)"
+  },
+  {
+    "Column": "closed_ts",
+    "Raw_Null_Rate_Extraction": 0.5707717141412989,
+    "Cycle_Nulls_Extraction": 276604,
+    "Cycle_Null_Rate_Extraction": 0.7510963512886031,
+    "Cycle_Nulls_at_T": 368267,
+    "Cycle_Null_Rate_at_T": 1.0,
+    "Delta_Percentage_Points": 24.890364871139692,
+    "Status_at_T": "Strictly 100% NULL at T (access open until renewal)"
+  },
+  {
+    "Column": "is_customer_initiated_cancel",
+    "Raw_Null_Rate_Extraction": 0.5707717141412989,
+    "Cycle_Nulls_Extraction": 276604,
+    "Cycle_Null_Rate_Extraction": 0.7510963512886031,
+    "Cycle_Nulls_at_T": 368267,
+    "Cycle_Null_Rate_at_T": 1.0,
+    "Delta_Percentage_Points": 24.890364871139692,
+    "Status_at_T": "Strictly 100% NULL at T (access open until renewal)"
+  },
+  {
+    "Column": "close_reason_code",
+    "Raw_Null_Rate_Extraction": 0.5707717141412989,
+    "Cycle_Nulls_Extraction": 276604,
+    "Cycle_Null_Rate_Extraction": 0.7510963512886031,
+    "Cycle_Nulls_at_T": 368267,
+    "Cycle_Null_Rate_at_T": 1.0,
+    "Delta_Percentage_Points": 24.890364871139692,
+    "Status_at_T": "Strictly 100% NULL at T (access open until renewal)"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "member_cancelled_total": 25141,
+  "member_cancelled_exact_matches": 25141,
+  "member_cancelled_mismatches": 0,
+  "payment_declined_total": 1102,
+  "payment_declined_exact_matches": 1102,
+  "payment_declined_mismatches": 0,
+  "billing_period_end_total": 619411,
+  "billing_period_end_matches": 619411,
+  "billing_period_end_mismatches": 0,
+  "charge_time_diff_minutes_median": 16.383333333333333,
+  "charge_time_diff_minutes_25p": 8.183333333333334,
+  "charge_time_diff_minutes_75p": 24.55,
+  "charge_time_diff_minutes_mean": 3807.6106997659754
+}

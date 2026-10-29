@@ -1,0 +1,21 @@
+Column,Raw_Null_Rate_Extraction,Cycle_Nulls_Extraction,Cycle_Null_Rate_Extraction,Cycle_Nulls_at_T,Cycle_Null_Rate_at_T,Delta_Percentage_Points,Status_at_T
+subscription_id,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+account_id,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+period_seq,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+signup_type,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+opened_ts,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+plan_code,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+plan_name,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+plan_price_usd,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+billing_cycle,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+max_concurrent_streams,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+max_video_quality,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+has_ads,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+is_free_trial_at_signup,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+billing_anchor_day,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+initial_payment_method_id,0.0,0,0.0,0,0.0,0.0,Known at signup; identical at T and extraction
+cancel_requested_ts,0.5739348779573136,276405,0.7505559824801028,355220,0.9645719002788737,21.401591779877094,Populated only if cancelled before T (3.54%)
+cancel_channel,0.5739348779573136,276405,0.7505559824801028,355220,0.9645719002788737,21.401591779877094,Populated only if cancelled before T (3.54%)
+closed_ts,0.5707717141412989,276604,0.7510963512886031,368267,1.0,24.890364871139692,Strictly 100% NULL at T (access open until renewal)
+is_customer_initiated_cancel,0.5707717141412989,276604,0.7510963512886031,368267,1.0,24.890364871139692,Strictly 100% NULL at T (access open until renewal)
+close_reason_code,0.5707717141412989,276604,0.7510963512886031,368267,1.0,24.890364871139692,Strictly 100% NULL at T (access open until renewal)

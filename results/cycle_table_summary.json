@@ -1,0 +1,13 @@
+{
+  "data_window_start": "2025-10-01 00:00:00+00:00",
+  "data_window_end": "2026-09-30 23:59:59+00:00",
+  "extraction_date": "2026-10-01 03:12:00+00:00",
+  "total_known_cycles": 368267,
+  "outcomes": {
+    "RENEWED": 347933,
+    "VOLUNTARY_CHURN": 19479,
+    "INVOLUNTARY_CHURN": 855
+  },
+  "min_renewal_ts": "2025-10-01 00:05:26+00:00",
+  "max_renewal_ts": "2026-09-30 23:58:43+00:00"
+}
